@@ -1,1 +1,2 @@
 django-admin startproject ecommerce .
+python3 manage.py createsuperuser
