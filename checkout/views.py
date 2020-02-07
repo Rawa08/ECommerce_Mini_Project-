@@ -39,7 +39,7 @@ def checkout(request):
                     amount = int(total * 100),
                     currency = "EUR",
                     description = request.user.email,
-                    card = payment_form.cleaned_data['stripe_id']
+                    card = payment_form.cleaned_data['stripe_id'],
                 )     
             except stripe.error.CardError:
                 messages.error(request, 'Your Card was declined!')
