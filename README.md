@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/Rawa08/ECommerce_Mini_Project-.svg?branch=master)](https://travis-ci.com/Rawa08/ECommerce_Mini_Project-)
