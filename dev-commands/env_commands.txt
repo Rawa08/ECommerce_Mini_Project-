@@ -6,3 +6,4 @@ pip3 install Pillow //allow image uploads//
 pip3 install stripe
 pip3 install django-storages
 pip3 install boto3
+pip3 install gunicorn
